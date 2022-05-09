@@ -1,7 +1,7 @@
-* {
+/* * {
 	border: 1px dashed red;
 	min-height: 10px;
-}
+} */
 
 body {
 	background: black;
@@ -10,21 +10,53 @@ body {
 .postcard {
 	background-color: white;
 	width: 400px;
-	height: 300px;
+	height: 350px;
 	margin: auto;
 }
 
 .postcard-header {
 	display: flex;
 	align-items: center;
+	
 }
 
 img {
 	width: 50px;
 	height: 50px;
+	padding: 5px;
 }
 
 h1 {
-	width: 400px;
+	width: 380px;
 	margin: none;
+	padding: 5px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left {
+	padding: 5px;
+	max-width: 200px;
+}
+
+.body-right {
+	padding: 5px;
+	padding-top: 20px;
+	max-width: 200px;
+}
+
+input {
+	padding: 5px;
+	border: none;
+	border-bottom: gray;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.boton {
+	padding: 5px;
 }
